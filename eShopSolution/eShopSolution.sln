@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution", "eShopSolution\eShopSolution.csproj", "{D5706939-43F6-4B29-98D2-A7670AD38C4F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4600CE07-1A66-4752-82E7-36A7E3B6CBC6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.data", "eShopSolution.data\eShopSolution.data.csproj", "{B4510712-DA43-44DF-8C30-4CA639D68663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Application", "eShopSolution.Application\eShopSolution.Application.csproj", "{FEFEB582-CC00-4943-902B-D612EF02B127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,14 @@ Global
 		{D5706939-43F6-4B29-98D2-A7670AD38C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5706939-43F6-4B29-98D2-A7670AD38C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5706939-43F6-4B29-98D2-A7670AD38C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4510712-DA43-44DF-8C30-4CA639D68663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4510712-DA43-44DF-8C30-4CA639D68663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4510712-DA43-44DF-8C30-4CA639D68663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4510712-DA43-44DF-8C30-4CA639D68663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFEB582-CC00-4943-902B-D612EF02B127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFEB582-CC00-4943-902B-D612EF02B127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFEB582-CC00-4943-902B-D612EF02B127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFEB582-CC00-4943-902B-D612EF02B127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
