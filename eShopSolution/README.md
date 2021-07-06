@@ -4,3 +4,4 @@
 - Entity Framework Core 3.1
 - MySql.Data.EntityFrameworkCore
 ## How to configure and run
+## Create Entity classes and Install  EF Core
