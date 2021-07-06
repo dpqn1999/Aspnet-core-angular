@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using eShopSolution.data.Enum;
 
 namespace eShopSolution.data.Entities
 {
-    class Contact
+    public class Contact
     {
         public int Id { set; get; }
         public string Name { set; get; }
